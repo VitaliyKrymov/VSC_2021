@@ -1,6 +1,29 @@
 body{
     margin: 0;
 }
-h1 {
+
+h1{
+    background: rgba(0, 255, 115, 0.178);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.wrap {
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.green {
+    background: chartreuse;
+
+}
+.red{
+    background: red;
+}
+.yellow{
     background: yellow;
+}
+.green .yellow .red {
+    width: 100px;
+    height: 100px;
 }
